@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+    <head>
+    <p>Pizzas bestellen:</p>
+    </head>
+
+    <body>
+        <script>
+                //Martijn Kooman
+                //Applicatie Ontwikkelaar
+
+            Const prices = {small:2.40, medium:3.99, large: 5,99}; // dit zijn de prijzen van de pizzas;
+
+            var smallAmount = parseInt(prompt(Hoeveel kleine pizzas wilt u bestellen?));
+            var mediumAmount = parseInt(prompt(Hoeveel medium pizzas wilt u bestellen?));
+            var largeAmount = parseInt(prompt(Hoeveel grote pizzas wilt u bestellen?));
+
+            // Bij een bestelling van 0 pizzas van een bepaalde grootte krijg je geen isNaN maar een 0
+            if (isNaN(smallAmount)) smallAmount = 0;
+            if (isNaN(mediumAmount)) mediumAmount = 0;
+            if (isNaN(largeAmount)) largeAmount = 0;
+
+            var totalprice = smallAmount * prices.small + mediumAmount * prices.medium + largeAmount * prices.large
+
+                writeLine("Aantal kleine pizzas: " + smallAmount);
+                writeLine("Prijs per stuk: " + prices.Small);
+                writeLine("Totaal kleine pizzas: " + (smallAmount * prices.Small).toFixed(2));
+                writeLine("");
+
+                writeLine("Aantal medium pizzas: " + mediumAmount);
+                writeLine("Prijs per stuk: " + prices.Medium);
+                writeLine("Totaal medium pizzas: " + (mediumAmount * prices.Medium).toFixed(2));
+                writeLine("");
+
+                writeLine("Aantal grote pizzas: " + largeAmount);
+                writeLine("Prijs per stuk: " + prices.Large);
+                writeLine("Totaal large pizzas: " + (largeAmount * prices.Large).toFixed(2));
+                writeLine("");
+                writeLine("----------------");
+                writeLine("");
+                writeLine("Sub totaal: " + (totalPrice / 121 * 100).toFixed(2));
+                writeLine("BTW (21%): " + (totalPrice / 121 * 21).toFixed(2));
+                writeLine("");
+                writeLine("Totaal: " + totalPrice.toFixed(2));
+
+                function writeLine(input) {
+                    document.write(input);
+                    document.write("<br />");
+                }
+
+        </script>
+    </body>
+</html>

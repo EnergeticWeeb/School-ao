@@ -1,0 +1,17 @@
+#meerweten {
+    position: relative;
+    bottom: 950px; /*56*/
+
+    width: 99vw;
+}
+
+#footer {
+    position: absolute;
+    top: 1975px; /*56*/
+    width: 99vw;
+}
+
+#footerImage {
+    position: absolute;
+    top: 1200px;
+}

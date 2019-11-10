@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', 'sans-serif';
+}
+
+#kassabon h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#kassabon h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3px;
+}

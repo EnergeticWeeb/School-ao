@@ -1,0 +1,19 @@
+#container {
+    width: 98vw;
+    background-image: url("../images/header_bg.jpg");
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 270px;
+    border: #c4c4c4 solid 1px;
+    margin-left: 700px;
+}
+
+#pages {
+    display: block;
+    margin-top: 50px;
+    margin-left: 500px;
+}

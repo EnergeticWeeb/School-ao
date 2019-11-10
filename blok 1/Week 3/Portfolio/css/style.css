@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to right, #030303, #e5f7fc);
+}
+
+h1 {
+    color: powderblue;
+    text-align: center;
+
+}
+
+p {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+div.text {
+    font-family: sans-serif;
+    float: left;
+    background-image: linear-gradient(to right, #9ecad8, #b3e1ef);
+}
+
+div.copyright {
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    color: black;
+}
+
+img {
+    float: right;
+    height: 200px;
+    width: 17%;
+    margin: 10px;
+    box-shadow: 5px 5px 2px #728f99;
+}
+
+
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #99bdc9, #bedde8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav li {
+}
+nav a {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 40px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-image: linear-gradient(to right, #7298a5, #9ec6d3);
+}
+nav .active {
+    background-image: linear-gradient(to right, #7298a5, #9ec6d3);
+}

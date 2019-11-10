@@ -1,0 +1,459 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body h1 {
+    display: inline-block;
+}
+
+body h2 {
+    display: inline-block;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.centered {
+    margin: 0 auto;
+}
+
+div.banner {
+    margin-top: 580px;
+}
+
+#meerweten {
+    background-color: #ffe718;
+    padding: 35px 0;
+}
+
+#meerweten > *:first-child {
+    margin-left: 470px;
+}
+
+#meerweten > * {
+    margin-left: 50px;
+}
+
+#meerweten button {
+    margin-left: 200px;
+}
+
+div.banner img {
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+}
+
+div.subbanner {
+
+    width: 320px;
+    height: 80px;
+    background-color: #ffe718;
+}
+
+#footer {
+    padding: 16px 0;
+
+    color: rgb(230, 230, 230);
+    background-color: #222931;
+
+    text-align: right;
+}
+
+/*
+    button
+ */
+
+button {
+    font-weight: bold;
+    display: inline-block;
+    padding: 9px 43px;
+
+    background-color: white;
+    color: #222931;
+    border: none;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/*
+    menu
+ */
+#menu {
+    background-color: #222931
+}
+
+#menu ul.main_menu, #menu div {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#menu ul.main_menu > li, #menu ul.main_menu > div {
+    margin: 0;
+    display: inline-block;
+    padding: 11px 12px;
+}
+
+a, #aboutMenuTab {
+    color: rgb(230, 230, 230);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#container > a {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    font sizes
+ */
+
+div.banner {
+    font-size: 32px;
+}
+
+
+#meerweten h1 {
+    font-size: 34px;
+}
+
+#meerweten h2 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+button {
+    font-size: 12px;
+}
+
+div.subbanner > div {
+    display: inline-block;
+    font-size: 50px;
+}
+
+div.subbanner > div.text h1 {
+    font-size: 22px;
+}
+
+div.subbanner > div.text h2 {
+    font-size: 14px;
+}
+
+#menu {
+    font-size: 12px;
+}
+
+#about h1 {
+    font-size: 24px;
+}
+
+#about h2 {
+    display: inline;
+    font-size: 24px;
+}
+
+#about h3 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#about {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#text h1 {
+    font-size: 34px;
+    line-height: 18px;
+}
+
+div.contact-text h2 {
+    color: gray;
+}
+
+div.contact-text h3 {
+    color: gray;
+    display: inline;
+    width: 125px;
+}
+
+#footer h1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 150px;
+}
+
+#diensten-text p {
+    color: #5f656d;
+    font-size: 13px;
+}
+
+#diensten-text h1 {
+    font-size: 34px;
+}
+
+#diensten-text {
+    font-weight: bold;
+}
+
+#diensten-text span {
+    color: #ffe718;
+}
+
+/*
+    misc
+ */
+
+
+#hr hr {
+    background-color: #aeb6be;
+    border: 0;
+    height: 1px;
+}
+
+#hr {
+    margin-top: 55px;
+}
+
+#meerweten {
+    position: relative;
+    bottom: 900px; /*56*/
+
+    width: 99vw;
+}
+
+#footer {
+    position: absolute;
+    top: 1875px; /*56*/
+    width: 99vw;
+}
+
+div.subbanner {
+    margin-top: 495px;
+}
+
+div.subbanner > div {
+    margin-left: 20px;
+}
+
+div.subbanner > div.text h1 {
+    margin-bottom: 0;
+}
+
+div.subbanner > div.text h2 {
+    margin-top: 0;
+}
+
+div.about-text {
+    width: 400px;
+    padding-right: 200px;
+}
+
+div.contact-text img {
+    width: 300px;
+}
+
+div.about-text:not(h1), div.contact-text:not(h1) {
+    display: inline;
+    margin-top: 40px;
+}
+
+#header, #footerImage {
+    z-index: -1;
+    width: 99vw;
+}
+
+#header {
+    position: absolute;
+    top: 68px;
+}
+
+#footerImage {
+    position: absolute;
+    top: 1100px;
+}
+
+#aboutMenuTab:hover .dropdown_menu, #aboutMenuTab:active .dropdown_menu {
+    display: block;
+}
+
+.dropdown_menu {
+    padding: 0;
+    margin-top: 11px;
+
+    list-style: none;
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    z-index: 1;
+
+    color: rgb(230, 230, 230);
+    background-color: rgb(60, 60, 60)
+}
+
+.dropdown_menu > li {
+    padding-left: 5px;
+    /*margin-left: -12px;*/
+    background-color: #222931;
+    color: rgb(230, 230, 230);
+}
+
+.dropdown_menu > li:hover {
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+    background-color: #ffe718;
+}
+
+
+div.banner {
+    height: 220px;
+}
+
+div.banner:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+div.banner:hover img {
+    opacity: 0.3;
+    transition: all .15s ease-in-out;
+}
+
+.banner:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+li:hover, li:hover > * {
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+    background-color: #ffe718;
+}
+
+.banner p {
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+
+    font-weight: bold;
+    color: whitesmoke;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#sbanner2 p {
+    bottom: 150px;
+}
+
+div.subbanner:hover {
+    background-color: #222931;
+    color: rgb(230, 230, 230);
+}
+
+div.subbanner:hover {
+    background-color: #222931;
+    color: rgb(230, 230, 230);
+}
+
+button:hover {
+    background-color: #222931;
+    color: rgb(230, 230, 230);
+}
+
+
+#advies, #regelgeving, #nieuwbouw {
+    display: inline;
+}
+
+#advies:hover + .dropdown_advies {
+    display: inline-block;
+}
+
+#regelgeving:hover + .dropdown_regelgeving {
+    display: inline-block;
+}
+
+#nieuwbouw:hover + .dropdown_nieuwbouw {
+    display: inline-block;
+}
+
+.dropdown_advies, .dropdown_nieuwbouw, .dropdown_regelgeving {
+    padding: 3px 2px;
+    margin-top: 11px;
+
+    list-style: none;
+    display: none;
+    position: absolute;
+    max-width: 300px;
+    z-index: 1;
+
+    color: rgb(230, 230, 230);
+    background-color: rgb(120, 120, 120)
+}
+
+#container {
+    display: grid;
+    grid-template-areas: 'title title title' 'menu menu menu' 'sbanner1 sbanner2 sbanner3' 'meerweten meerweten meerweten' 'deals diensten contact' 'hr hr hr' 'about about about' 'footer footer footer';
+}
+
+#title {
+    grid-area: title;
+}
+
+#menu {
+    grid-area: menu;
+}
+
+#sbanner1 {
+    grid-area: sbanner1;
+}
+
+#sbanner2 {
+    grid-area: sbanner2;
+}
+
+#sbanner3 {
+    grid-area: sbanner3;
+}
+
+#deals {
+    grid-area: deals;
+}
+
+#diensten {
+    grid-area: diensten;
+}
+
+#meerweten {
+    grid-area: meerweten;
+}
+
+#contact {
+    grid-area: contact;
+}
+
+#hr {
+    grid-area: hr;
+}
+
+#about {
+    grid-area: about;
+}
+
+#diensten-text {
+    margin-top: 560px;
+    grid-area: 3 / 1 / 4 / 4;
+}

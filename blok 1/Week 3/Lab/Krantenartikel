@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Krantenartikel</title>
+    <link <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h1>Krantenartikel</h1>
+<p>Er is niet veel veranderd.</p>
+
+<div class="text">
+    <img src="images/vloot1.jpg" class="image1">
+
+    Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+
+    <img src="images/vloot2.jpg" class="image2">
+    <br>
+    <br>
+    Aenean malesuada aliquet commodo. In ullamcorper ligula vitae augue tempor, id vestibulum neque feugiat. Fusce ultricies risus at nisi feugiat vulputate. Morbi porttitor placerat posuere. Nulla tincidunt id quam eu pellentesque. Proin et dolor eleifend, tincidunt sem nec, auctor dolor. Suspendisse potenti. Aenean sit amet urna pretium, mattis risus at, consequat enim. Quisque sed velit diam. Aliquam congue faucibus quam nec lobortis. Quisque venenatis scelerisque mattis.
+    Curabitur in est eu mauris tristique fermentum vel sed nulla. Nam ornare ex felis, dapibus varius augue gravida ut. Proin elementum lectus et diam accumsan efficitur. Nulla at ex tellus. Integer sagittis dolor enim, sit amet consectetur quam egestas id. Vestibulum vitae turpis massa. Quisque bibendum mattis nisi in sodales. Suspendisse accumsan lectus ipsum, consequat scelerisque sem posuere convallis.
+
+    <img src="images/vloot3.jpg" class="image3">
+    <br>
+    <br>
+    Nullam ultricies lectus eget nisl tincidunt, in euismod sem sodales. Phasellus odio elit, facilisis vitae nunc sed, eleifend ullamcorper massa. Sed eleifend pretium sollicitudin. Maecenas varius, velit eu pulvinar ultricies, metus felis mattis tellus, molestie rutrum nulla purus ac odio. Etiam pulvinar metus eget pharetra sollicitudin. Mauris vehicula quam eget quam aliquet, ut dapibus felis vehicula. Ut auctor, sem et mollis ullamcorper, magna dolor tristique eros, vitae posuere purus mauris quis elit. Donec in pulvinar ipsum. Cras aliquam pellentesque ipsum nec ullamcorper. Fusce neque lacus, ultricies sit amet nulla sed, accumsan faucibus libero. Proin in bibendum erat, elementum ultricies mauris. Cras varius iaculis felis, vitae viverra neque dignissim sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+</div>
+</body>
+</html>

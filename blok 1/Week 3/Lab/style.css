@@ -1,0 +1,27 @@
+body {
+    background-color: powderblue;
+}
+
+p {
+    font-family: Cambria;
+    font-size: 20px;
+}
+div.text {
+    width: 1000px;
+}
+
+img {
+    border: 2px solid;
+    margin: 15px;
+}
+
+.image1 {
+    float: left;
+}
+.image2 {
+    float: right;
+
+}
+.image3 {
+    float: left;
+}
